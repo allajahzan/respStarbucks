@@ -1,0 +1,849 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scrollbar-width: thin;
+}
+
+/* section navbar----------------- */
+#section-navbar .navigation-bar{
+    padding: 1em 7.4em 1em 7.4em;
+    box-shadow: 0rem 0rem 0.4rem 0rem rgba(44, 44, 44, 0.605);
+   background-color: white;
+}
+
+#section-navbar input{
+    position: relative;
+    right: 144px;
+    width: 135%;
+    padding: 11px 15px 11px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0.6px 1.5px 0.5px lightgray;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: .2px;
+}
+#section-navbar input::placeholder{
+   color: gray;
+}
+#section-navbar form{
+    position: relative;
+}
+
+#section-navbar svg{
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: -120px;
+    color: grey;
+}
+#section-navbar .nav-link{
+    padding: 0px 0px 8px 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin:0px 32px 0px 32px;
+}
+
+#section-navbar .link1{
+    border-bottom-color: #00754a;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+#section-navbar .link2{
+    border-bottom-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+#section-navbar .link3{
+    border-bottom-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+#section-navbar .link4{
+    border-bottom-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+#section-navbar .link5{
+    border-bottom-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+#section-navbar .nav-items{
+    position: relative;
+    top: 2px;
+    left: 6px;
+}
+#section-navbar a{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+/* section sub header-------------------- */
+
+#sub-header {
+    height: 83px;
+    background-color: #1e3932;
+    position: relative;
+    top: 4.5em;
+    border-width: 3.8px 0px 0px 0px;
+    border-style: solid;
+    border-color: white;
+    padding: 0em 5em 5em;
+}
+
+#sub-header .container{
+    height: 83px;
+    padding: 1.35em 3em 1.35em 1.5em;
+}
+
+#sub-header .row {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 1.1875rem;
+    display: flex;  
+    position: relative;
+}
+
+#sub-header .container p {
+    letter-spacing: .2px;
+}
+
+#sub-header .container button {
+    border-radius: 20px;
+    padding: 5.2px 12.5px 6.2px 12.5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer; 
+}
+#sub-header .row .button{
+ text-align: right;
+}
+
+
+/* section ads------------------------------------ */
+#ads {
+    background-color: white;
+    position: relative;
+    top: 6.5em;
+}
+
+#ads .container, .container-fluid{
+    padding: 0em;
+}
+
+#ads .container-sub{
+    padding-left: 1.3em;
+    padding-right: 1.2em;
+}
+
+#ads .carousel-inner{
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#ads .left {
+    text-align: center;
+    top: 45%;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.5;
+}
+
+#ads .right {
+    text-align: center;
+    top: 45%;
+    height: 42px;
+    width: 42px; 
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+}
+
+#ads .icon {
+    color: #00754a;
+    position: relative;
+    top: 4px;
+}
+
+#ads .row1{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #178675;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Banner_Background_2256x488_1_0c34e62d77.webp");
+}
+
+#ads .row2{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cdb875b9;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Banner_BG_Web_Valentine_Merch_1_fa454f3a2a.webp");
+}
+
+#ads .row3{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fba8e5;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/BG_Web_Java_chip_berry_frappuccino_4_a33c7be952.webp"); 
+}
+
+#ads .row4{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #476b77b9;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Bg_web_1_dcccc7299d.webp");
+}
+
+
+#ads .main-div2 .glass {
+    width: 55%; 
+    position: relative;
+    top: -10px;
+}
+
+#ads .main-div2 .img1 {
+    width: 52%; 
+    position: relative;
+    top: 12px;
+}
+
+#ads .main-div2 .sub-div {
+   height: 220px;
+}
+
+#ads .main-div2 .sub-div .text-div {
+    position: relative; 
+    left: -65px;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#ads .main-div2 .sub-div .text-div-black {
+    color: black;
+}
+
+#ads .main-div2 .sub-div .text-div p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#ads .main-div2 .sub-div .text-div h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+
+#ads .main-div2 .sub-div .text-div .p3 {
+    font-size: 14px;
+    margin-bottom: 39px;
+}
+
+#ads .main-div2 .sub-div .text-div .p4 {
+    font-size: 11.5px;
+    margin-bottom: 2px;
+}
+
+#ads .main-div2 .sub-div .text-div h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ #ads .main-div2 .sub-div button {
+    border-radius: 50px;
+    padding: 15px 66px 17.8px 66px;
+    background-color: #00754a;
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 40px;
+    bottom: 24px;
+    cursor: pointer;
+}
+
+#ads .main-div2 .sub-div .button-div {
+    position: relative;
+}
+
+#ads .main-div2 .sub-div .button-div p {
+    color: white;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+} 
+
+
+/* section recomends---------------------- */
+
+#recomends {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background: #edebe9;
+    position: relative;
+    top: 8.5em;
+    height: 300px;
+}
+
+#recomends .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recomends h1 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #343a40;
+    margin-bottom: 25px;
+}
+
+#recomends .menu-p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #00754a;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+#recomends .leaf {
+    position: absolute;
+    width: 60px;
+    right: 0px;
+    top: 4px;
+
+}
+
+#recomends .cards{
+    margin-bottom: 20px;
+}
+
+#recomends .card-sub {
+    margin-left: 0px;
+    margin-right: 1px;
+    background-color: white;
+    padding: 16px 20px;
+    height: 160px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    box-shadow: 0.01rem 0.05rem 1rem 0.2rem lightgray;
+    cursor: pointer;
+}
+
+#recomends .img-div {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    padding: 0em;
+}
+
+#recomends .img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+#recomends .text-div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+}
+
+#recomends .text-div p{
+    margin: 5px;
+}
+
+#recomends .text-div .p2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    color: grey;
+}
+
+
+#recomends .veg {
+    width: 18px;
+    position: relative;
+    left: 5px;
+}
+
+#recomends .col-2, .col-10{
+    padding: 0em;
+}
+
+#recomends .price{
+    position: relative;
+    top: 10px;
+}
+
+#recomends .price p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#recomends .col-10{
+    text-align: end;
+}
+
+#recomends .price button {
+    background-color: #00754a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#recomends .price button:hover{
+    background-color: #0e382c;
+} 
+
+/* section images------------------------------------*/
+
+#images {
+    position: relative;
+    top: 11em;
+}
+
+#images h1 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+#images .col-6, .container-fluid{
+    padding: 0em;
+    margin: 0em;
+}
+
+#images .img-div {
+    font-size: .85rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#images .img-div p {
+    margin-top: 10px;
+
+}
+
+#images .img-circle {
+    background-color: white;
+    position: relative;
+    border-radius: 600px;
+    width: 106px;
+    height: 106px;
+    cursor: pointer;
+}
+
+#images img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 600px;
+}
+
+#images .img-circle:hover img {
+    transform: scale(0.95);
+}
+
+#images .img-circle:hover {
+    background-color: #00754a;
+}
+
+
+/* section offers----------------------------- */
+
+#offers {
+    height: 465px;
+    position: relative;
+    top: 15em;
+}
+
+#offers .arrow-button-div{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12.5em;
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+
+}
+
+#offers .left {
+    border: none;
+    text-align: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.3;
+} 
+
+#offers .right {
+    border: none;
+    text-align: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+} 
+
+#offers .icon {
+    font-size: 22px;
+    color: #00754a;
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+
+#offers h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+#offers .img-div {
+    height: 47%;
+}
+
+#offers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#offers .veg {
+    width: 5%;
+}
+
+#offers .card {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    overflow: hidden;
+    height: 360px;
+    box-shadow: 0.01rem 0.05rem 1rem 0.2rem lightgray;
+    cursor: pointer;
+}
+
+#offers .card4{
+    display: none;
+}
+
+#offers .text-div {
+    padding: 18px 22px;
+}
+
+#offers .p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#offers .p2 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+#offers .p3 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+#offers .price {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+
+}
+
+#offers .price p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#offers .price button {
+    background-color: #00754a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#offers .price button:hover{
+  background-color: #1e3932;
+}
+
+#offers .item-4{
+    display: none;
+}
+
+/* section learn more--------------------- */
+
+#learn-more {
+    padding-top: 30px;
+    height: 490px;
+    background: #edebe9;
+    position: relative;
+    top: 15em;
+}
+
+#learn-more .heading {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+#learn-more h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+    top: 0px;
+    margin-bottom: 25px;
+}
+
+#learn-more .p1 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #00754a;
+    text-decoration: none;
+} 
+
+#learn-more .main-div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 370px;
+    cursor: pointer;
+}
+
+#learn-more .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.752) 100%);
+    transition: 5s;
+}
+
+#learn-more img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#learn-more .main-div:hover .shadow {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.404) 5%, rgb(0, 0, 0) 100%);
+}
+
+#learn-more .h1 {
+    margin: 0px;
+    position: absolute;
+    top: 192px;
+    left: 32px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#learn-more .p2 {
+    position: absolute;
+    left: 32px;
+    top: 15px;
+    background-color: white;
+    color: green;
+    padding: 2px 4px;
+    font-size: 9.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#learn-more .p3 {
+    position: absolute;
+    top: 245px;
+    left: 32px;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#learn-more button {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    background-color: white;
+    padding: 9px 66px 9px 66px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* section footer-------------------------------------- */
+
+#footer {
+    padding-top: 8em;
+    height: 53em;
+    background: #0e382c;
+    position: relative;
+    top: 17.5em;
+}
+
+#footer .child-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0em;
+}
+
+#footer .logo {
+    width: 60px;
+    height: 60px;
+}
+
+#footer p {
+    color: white;
+    font-size: 17.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 29px;
+}
+
+#footer a:hover{
+    color: lightgray;
+}
+
+#footer .icon {
+    color: white;
+    font-size: 35px;
+    margin-top: 18px;
+    margin-right: 12px;
+}
+
+#footer .app {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#footer .last-div {
+    border-color: lightgray;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    padding-top: 15px;
+    margin-top: 75px;
+}
+
+#footer .last-div .col-sm-12{
+    padding: 0px;
+}
+
+#footer .last-div .copyright-text{
+   text-align: end;
+}
+
+#footer .last-div a {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer .last-div a:hover{
+    color: lightgray;
+}
+
+#footer .last-div .a {
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0px 1px 0px 0px;
+    margin-right: 15px;
+    padding-right: 15px;
+
+}
+
+#footer .last-div .copyright {
+    font-size: 10px;
+    /* position: relative;
+    top: -3px; */
+}
+

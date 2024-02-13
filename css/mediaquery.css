@@ -1,0 +1,1113 @@
+/* section navbar----------------------------------- */
+
+@media (width <=1350px) {
+    #section-navbar .nav-link {
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+@media (width <=1100px) {
+    #section-navbar .nav-link {
+        margin: 0px 8px 0px 8px;
+    }
+}
+
+@media (width <=991.20px) {
+ 
+    #section-navbar .navigation-bar {
+        padding: 1em 2em 1em 2em;
+    }
+
+    #section-navbar .logo {
+        position: relative;
+        left: 10px;
+    }
+
+    #section-navbar input {
+        position: relative;
+        right: 0px;
+        width: 100%;
+    }
+
+    #section-navbar svg {
+        position: absolute;
+        z-index: 2;
+        top: 12px;
+        left: 20px;
+        color: grey;
+    }
+
+    #section-navbar form {
+        position: relative;
+        top: 10px;
+    }
+
+    #section-navbar .text-end {
+        position: relative;
+        top: 5px;
+    }
+
+    #section-navbar .nav-link {
+        padding: 0px 0px 2px 0px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    #section-navbar .nav-items {
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+
+/* section sub header----------------------------- */
+
+@media (max-width: 991.20px) {
+
+    #sub-header {
+        position: relative;
+        height: 80px;
+        top: 12.2em;
+        padding: 0em 3em 3em;
+    }
+
+    #sub-header .container {
+        height: 80px;
+        padding: 1.35em 0em 1.35em 0em;
+    }
+
+    #ads {
+        background-color: white;
+        position: relative;
+        top: 14em;
+    }
+    
+}
+
+@media (max-width: 830px) {
+    #sub-header {
+        padding: 0em 2em 2em;
+    }
+}
+
+@media (max-width: 767.20px) {
+    #sub-header {
+        position: relative;
+        height: 85px;
+        top: 12.7em;
+    }
+
+    /* section navbar---------- */
+    #section-navbar .nav-link {
+        padding: 0px 0px 2px 0px;
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+@media (width <=600px) {
+
+    /* section navbar--------- */
+    #section-navbar .nav-link {
+        padding: 0px 0px 2px 0px;
+        margin: 0px 8px 0px 8px;
+    }
+    
+    #sub-header .row p{
+        font-size: 1rem;
+    }
+}
+
+@media (width <=510px) {
+    #sub-header {
+        position: relative;
+        height: 100px;
+        top: 12.7em;
+    }
+
+    #sub-header .container {
+        height: 100px;
+    }
+    
+    #sub-header .row p{
+        font-size: 1rem;
+    }
+
+}
+
+/* section recomonds---------------------- */
+
+@media (max-width: 991.20px)
+{
+    #recomends {
+        position: relative;
+        top: 16em;
+    }
+}
+
+@media (max-width: 767.20px)
+{
+    #recomends {
+        position: relative;
+        height: 480px;
+        padding: 2em;
+    }
+
+}
+
+@media (width <=600px)
+{
+    #recomends h1{
+        width: 80%;
+        position: relative;
+        left: 10px;
+        font-size: 1.2rem;
+        /* padding: 2em; */
+    }
+
+    #recomends .card-sub {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width: 550px)
+{
+    #recomends .price button {
+        position: relative;
+        right: -10px ;
+    }
+    
+    #recomends {
+        padding: .2em;
+    }
+}
+
+@media (max-width: 415px)
+{
+    #recomends .price button {
+        position: relative;
+        top: -10px;
+    }
+
+    #recomends .price button {
+        position: relative;
+        right: -10px;
+        top: 2px;
+    }
+
+    #recomends .heading .menu-p{
+        position: relative;
+        right: 10px;
+        
+    }
+
+    #recomends {
+        padding: .2em;
+    }
+}
+
+@media (max-width: 395px)
+{
+    #recomends .price button {
+        position: relative;
+        top: -10px;
+    }
+
+    #recomends {
+        padding: 0em;
+    }
+}
+
+@media (max-width: 365px)
+{
+    #recomends .price button {
+        position: relative;
+        top: -10px;
+        right: 1px;
+    }
+
+    #recomends .card-sub {
+        padding: 8px 12px;
+    }
+
+    #recomends .img-div {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+/* section image------------------------ */
+
+@media (width <=991.20px){
+    #images {
+        height: auto;
+        position: relative;
+        top: 18em;
+    }
+}
+
+@media (width <=600px){
+    #images h1{
+        width: 80%;
+        position: relative;
+        left: 10px;
+        font-size: 1.2rem;
+    }
+
+    /* section offerss------------------ */
+
+    #offers h1{
+        width: 80%;
+        position: relative;
+        left: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* section offersss------------------------------- */
+
+@media (max-width : 1199.20px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 1.5em;
+    }
+
+    /* #offers .card3, .card4{
+        display: none;
+    } */
+        
+}
+
+@media (max-width : 991.20px)
+{
+    #offers{
+        position: relative;
+        top: 20em;
+    }
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: .5em;
+    }
+        
+}
+
+@media (max-width : 767.20px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+        
+}
+
+@media (max-width : 575.50px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+        
+}
+
+@media (max-width : 450.50px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+
+    #offers{
+        padding: 0em;
+    }
+        
+}
+
+@media (max-width : 400.50px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+
+    #offers{
+        padding: .5em;
+    }
+        
+}
+
+@media (max-width : 380.50px)
+{
+    #offers .col-sm-12{
+      margin-bottom: 1.6em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    #offers{
+        padding: .5em;
+    }
+        
+}
+
+
+/* section subscription-------------------------------------------- */
+
+@media (max-width : 1399.20px)
+{
+   
+    #ads .main-div2 .sub-div button { 
+        position: absolute;
+        right: 35px;
+        bottom: 16px;
+    }
+
+    #ads .main-div2 .sub-div .text-div p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p3 {
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 11.5px;
+        margin-bottom: 1px;
+    }
+
+    #ads .main-div2 .glass {
+        width: 60%; 
+    }
+}
+
+@media (max-width : 1199.20px)
+{
+   
+    #ads .main-div2 .sub-div button { 
+        padding: 12px 60px 14.8px 60px;
+        position: absolute;
+        right: 40px;
+        bottom: 16px;
+    }
+
+    #ads .main-div2 .sub-div .text-div {
+       position: relative;
+       left: -20px;
+    }
+
+    #ads .main-div2 .sub-div .text-div p {
+        font-size: 12.5px;
+        margin-bottom: 6px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p3 {
+        font-size: 12.5px;
+        margin-bottom: 58px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 11.5px;
+        margin-bottom: 1px;
+    }
+
+    #ads .main-div2 .glass {
+        width: 75%; 
+    }
+}
+
+@media (max-width : 991.20px)
+{
+   
+    #ads .main-div2 .sub-div button { 
+        padding: 10px 32px 12.8px 32px;
+        position: absolute;
+        right: 35px;
+        bottom: 16px;
+    }
+
+    #ads .main-div2 .sub-div .text-div {
+       position: relative;
+       left: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div p {
+        font-size: 12.5px;
+        margin-bottom: 6px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p3 {
+        font-size: 12.5px;
+        margin-bottom: 0;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 11.5px;
+        margin-top: 40px;
+    }
+    
+
+    #ads .main-div2 .glass {
+        position: relative;
+        top: 10px;
+        width: 100%; 
+    }
+}
+
+@media (max-width : 768.20px)
+{
+   
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 10px 18px 12.8px 18px;
+        position: absolute;
+        right: 30px;
+        bottom: 16px;
+    }
+
+    #ads .main-div2 .sub-div .text-div {
+       position: relative;
+       left: 30px;
+    }
+
+    #ads .main-div2 .sub-div .text-div p {
+        font-size: 11.5px;
+        margin-bottom: 6px;
+    }
+    
+    #ads .main-div2 .sub-div .text-div h3 {
+        font-size: 17px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p3 {
+        font-size: 11.5px;
+        margin-bottom: 0;
+    }
+    
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 40px;
+    }
+    
+    #ads .main-div2 .glass {
+        position: relative;
+        top: 10px;
+        width: 90px; 
+    }
+
+    #ads .main-div2 .sub-div {
+        height: 210px;
+     }
+}
+
+@media (max-width : 600px)
+{
+    #ads {
+        padding: .5em;
+    }
+
+    #ads .main-div2 .glass {
+        position: relative;
+        top: 10px;
+        width: 85px; 
+    }
+
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 8px 13.5px 9.8px 13.5px;
+        position: absolute;
+        right: 30px;
+        bottom: 15px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 30px;
+    }
+
+    #ads .main-div2 .sub-div {
+        height: 200px;
+     }
+    
+}
+
+@media (max-width : 550px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 8px 13.5px 9.8px 13.5px;
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 25px;
+    }
+    
+}
+
+@media (max-width : 537.60px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 8px 13.5px 9.8px 13.5px;
+        position: absolute;
+        right: 25px;
+        bottom: 15px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 25px;
+    }
+
+    #ads .main-div2 .sub-div {
+        height: 210px;
+     }
+   
+    
+}
+
+@media (max-width : 480px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 5px 10px 6.8px 10px;
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+        border-radius: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 25px;
+    }
+
+    
+    
+}
+
+@media (max-width : 435px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 6px 11px 7.8px 11px;
+        position: absolute;
+        right: 25px;
+        bottom: 15px;
+        border-radius: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width : 420px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 5px 10px 6.8px 10px;
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+        border-radius: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 15px;
+    }
+    
+}
+
+@media (max-width : 395px)
+{
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 5px 10px 6.8px 10px;
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+        border-radius: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width : 365px)
+{
+    #ads .main-div2 .text-div{
+        position: relative;
+        top: -10px;
+    }
+    #ads .main-div2 .sub-div button { 
+        font-size: 10.5px;
+        padding: 5px 10px 6.8px 10px;
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        border-radius: 10px;
+    }
+
+    #ads .main-div2 .sub-div .text-div .p4 {
+        font-size: 10.5px;
+        margin-top: 15px;
+    }
+}
+
+/* section learn more--------------------------------------- */
+
+@media (max-width: 1199.20px)
+{
+    #learn-more{
+        position: relative;
+        top: 40em;
+    }
+}
+
+@media (max-width: 991.20px)
+{
+    #learn-more{
+        position: relative;
+        top: 44em;
+        height: 450px;
+    }
+    #learn-more .main-div {
+        height: 320px;
+    }
+
+    #learn-more .h1{
+        position: absolute;
+        top: 155px;
+    }
+
+    #learn-more .p3 {
+        position: absolute;
+        top: 195px;
+        width: 90%;
+    }
+}
+
+@media (max-width : 767.20px)
+{
+    #learn-more{
+        position: relative;
+        top: 68em;
+        height: 460px;
+        padding: .5em;
+    }
+
+    #learn-more .h11{
+        width: 120%;
+        margin-top: 10px;
+    }
+
+    #learn-more .p1{
+       margin-top: 15px;
+       width: 25%;
+    }
+}
+
+@media (width <=600px){
+    #learn-more h1{
+        width: 80%;
+        position: relative;
+        left: 0px;
+        font-size: 1.2rem;
+    }
+
+    #learn-more .h1{
+        position: absolute;
+        top: 130px;
+    }
+
+    #learn-more .p3 {
+        position: absolute;
+        top: 195px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 575.20px){
+    #learn-more h1{
+        width: 80%;
+        position: relative;
+        left: 0px;
+        font-size: 1.2rem;
+    }
+
+    #learn-more .h1{
+        position: absolute;
+        top: 125px;
+        font-size: 1.4rem;
+    }
+
+    #learn-more .p3 {
+        position: absolute;
+        top: 195px;
+        width: 90%;
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 527.20px){
+
+    #learn-more .h1{
+        position: absolute;
+        top: 120px;
+        font-size: 1.4rem;
+    }
+
+    #learn-more .p3 {
+        position: absolute;
+        top: 185px;
+        width: 90%;
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 450.20px){
+
+    #learn-more .h11{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    #learn-more .p1{
+       margin-top: 15px;
+       width: 30%;
+    }
+}
+
+/* section footer-------------------------------------------- */
+
+@media (max-width: 1399.20px)
+{
+    #footer{
+        height: 53em;
+    }
+}
+
+@media (max-width: 1199.20px)
+{
+    #footer{
+        position: relative;
+        top: 42.5em;
+        height: 56.5em;
+    }
+
+    #footer .icon {
+        color: white;
+        font-size: 40px;
+        margin-right: 7px;
+    }
+}
+
+@media (max-width: 991.20px)
+{
+    #footer .container{
+       padding-left: 0em;
+       padding-right: 0em;
+    }
+
+    #footer{
+        height: 57.5em;
+        position: relative;
+        top: 47em;
+    }
+
+    #footer .icon{
+       font-size: 45px;
+       margin-right: 30px;
+    }
+
+    #footer .last-div .a {
+        margin-right: 8px;
+        padding-right: 8px;
+    }
+
+    #footer .logo{
+        position: relative;
+        left: -20px;
+    }
+
+    #footer .item4{
+        position: relative;
+        left: 10px;
+    }
+    #footer .item5{
+        position: relative;
+        left: 30px;
+    }
+}
+
+@media (max-width : 845px)
+{
+
+    #footer .logo{
+        position: relative;
+        left: 10px;
+    }
+    #footer .item2{
+        position: relative;
+        left: 25px;
+    }
+    #footer .item3{
+        position: relative;
+        left: 8px;
+    }
+    #footer .item4{
+        position: relative;
+        left: 22px;
+    }
+    #footer .item5{
+        position: relative;
+        left: 30px;
+    }
+    #footer .item6{
+        position: relative;
+        left: -20px;
+    }
+
+}
+
+@media (max-width : 767.20px)
+{
+    
+    #footer{
+        position: relative;
+        top: 70.5em;
+        height: 87em;
+        padding-top: 4em;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+    }
+
+    #footer .container{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    #footer p{
+        margin-top: 40px;
+    }
+
+    #footer .child-div a{
+        margin-top: 20px;
+    }
+
+    #footer img {
+        margin-top: 20px;
+    }
+
+    #footer .app2 {
+        position: relative;
+        top: -40px;
+    }
+    
+    #footer .logo{
+        position: relative;
+        left: 0px;
+    }
+    #footer .item2{
+        position: relative;
+        left: 0px;
+    }
+    #footer .item3{
+        position: relative;
+        left: 0px;
+    }
+    #footer .item4{
+        position: relative;
+        left: 0px;
+    }
+    #footer .item5{
+        position: relative;
+        left: 0px;
+    }
+    #footer .item6{
+        position: relative;
+        left: 0px;
+        text-align: end;
+    }
+
+    #footer .last-div{
+        margin-top: 50px;
+    }
+
+    #footer .last-div .a {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    #footer .last-div .copyright-text{
+        text-align: center;
+        margin-top: 10px;
+     }
+
+}
+
+
+@media (width <= 577.20px)
+{
+    #footer .item6{
+        position: relative;
+        top: 0px; 
+    }
+
+    #footer .last-div{
+        margin-top: 50px;
+    }
+}
+
+@media (width <= 575.20px)
+{
+    #footer .item6{
+        position: relative;
+        top: -130px; 
+    }
+
+    #footer .last-div{
+        margin-top: -90px;
+    }
+}
+
+@media (max-width : 571.20px)
+{
+    #footer{
+        height: 90em;
+    }
+
+    #footer .item6{
+        position: relative;
+        top: -130px; 
+    }
+
+    #footer .last-div .a {
+        margin-right: .3em;
+        padding-right: .3em;
+    }
+
+    #footer .last-div .div1{
+        text-align: center;
+    }
+}
+
+@media (max-width : 541.20px)
+{
+    #footer{
+        height: 86em;
+    }
+
+}
+
+
+@media (max-width : 450.20px)
+{
+    #footer{
+        height: 86em;
+    }
+
+    #footer .item6{
+        position: relative;
+        top: -20px;
+        left: -140px; 
+    }
+
+    #footer .last-div .a {
+        margin-right: .3em;
+        padding-right: .3em;
+    }
+
+    #footer .last-div .div1{
+        text-align: center;
+    }
+
+    #footer .last-div{
+        margin-top: -10px;
+    }
+}
+
+@media (max-width : 431.20px)
+{
+    #footer{
+        height: 92em;
+    }
+
+}
+
+@media (max-width : 420.20px)
+{
+    #footer{
+        height: 93em;
+    }
+
+}
+
+@media (max-width : 395.20px)
+{
+    #footer{
+        height: 92em;
+    }
+    #footer .item6{
+        position: relative;
+        top: -20px;
+        left: -115px; 
+    }
+}
+
+@media (max-width : 380.20px)
+{
+
+    #footer .item6{
+        position: relative;
+        top: -20px;
+        left: -100px; 
+    }
+}
+
+
+
